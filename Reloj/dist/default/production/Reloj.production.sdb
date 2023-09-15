@@ -1,0 +1,114 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1939 ]
+[d frameptr 6 ]
+"43 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"10 C:\Users\SUARIO\OneDrive\Escritorio\Micro\Taller\Reloj\main.c
+[v _Inicio Inicio `(v  1 e 1 0 ]
+"60
+[v _Alarma Alarma `(v  1 e 1 0 ]
+"161
+[v _main main `(v  1 e 1 0 ]
+"491 D:/Descargas/Aplicaciones/MicroChip_2023/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8\pic\include\proc\pic16f1939.h
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+[s S50 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508
+[u S59 . 1 `S50 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES59  1 e 1 @13 ]
+"553
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+[s S77 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"570
+[u S86 . 1 `S77 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES86  1 e 1 @14 ]
+"615
+[v _PORTD PORTD `VEuc  1 e 1 @15 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+[s S98 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2436
+[u S107 . 1 `S98 1 . 1 0 ]
+[v _LATBbits LATBbits `VES107  1 e 1 @269 ]
+[s S22 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2498
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _LATCbits LATCbits `VES31  1 e 1 @270 ]
+"2543
+[v _LATD LATD `VEuc  1 e 1 @271 ]
+"5 C:\Users\SUARIO\OneDrive\Escritorio\Micro\Taller\Reloj\main.c
+[v _decoCC decoCC `[10]uc  1 e 10 0 ]
+"8
+[v _P1 P1 `i  1 e 2 0 ]
+[v _P2 P2 `i  1 e 2 0 ]
+[v _P3 P3 `i  1 e 2 0 ]
+[v _P4 P4 `i  1 e 2 0 ]
+[v _P5 P5 `i  1 e 2 0 ]
+[v _P6 P6 `i  1 e 2 0 ]
+[v _PosiAlar PosiAlar `i  1 e 2 0 ]
+"9
+[v _Ayuda Ayuda `[5]i  1 e 10 0 ]
+"161
+[v _main main `(v  1 e 1 0 ]
+{
+"178
+} 0
+"10
+[v _Inicio Inicio `(v  1 e 1 0 ]
+{
+"59
+} 0
+"60
+[v _Alarma Alarma `(v  1 e 1 0 ]
+{
+"160
+} 0
